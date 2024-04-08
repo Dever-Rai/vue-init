@@ -1,9 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-	<div>
-		<ExampleComponent msg="te" />
-	</div>
+	<RouterView />
 </template>
 
 <style lang="scss">

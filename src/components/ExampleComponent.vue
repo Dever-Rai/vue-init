@@ -1,9 +1,13 @@
 <script setup lang="ts">
-defineProps<{ msg: string }>();
+interface Props {
+	msg: string;
+}
+
+const { msg } = defineProps<Props>();
 </script>
 
 <template>
-	<div>{{ msg }}</div>
+	<div class="button" id="name">{{ msg }}</div>
 </template>
 
 <style lang="scss" scoped></style>
